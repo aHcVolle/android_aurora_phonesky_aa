@@ -23,6 +23,8 @@ Get the latest android auto stub files from https://github.com/JQuilty/android-a
 
 ## Example of file structure
 Your directory should now look like this:
+
+```
 /phonesky/Phonesky.apk
 /auroraservices/AuroraServices.apk
 /auroraservices/com.aurora.services.xml
@@ -33,6 +35,7 @@ Your directory should now look like this:
 /files/permissions-com.android.vending.xml
 /files/51-aurora_playstore_aa.sh
 /install_aurora_phonesky_aa.sh
+```
 
 ## Run the script
 When running the script (install_aurora_phonesky_aa.sh) you'll be asked if you want to install the files via the running android live system or the lineageos recovery (TWRP might work too, there be dragons!).
